@@ -7,8 +7,8 @@ metadata:
 spec:
   valuesContent: |-
     additionalArguments:
-      - "--entryPoints.web.transport.respondingTimeouts.readTimeout=0s"
-      - "--entryPoints.web.transport.respondingTimeouts.writeTimeout=0s"
-      - "--entryPoints.web.transport.respondingTimeouts.idleTimeout=0s"
-      - "--entryPoints.websecure.transport.respondingTimeouts.readTimeout=0s"
-      - "--entryPoints.websecure.transport.respondingTimeouts.writeTimeout=0s"
+      - "--entryPoints.web.transport.respondingTimeouts.readTimeout=10s"
+      - "--entryPoints.web.transport.respondingTimeouts.writeTimeout=10s"
+      - "--entryPoints.web.transport.respondingTimeouts.idleTimeout=10s"
+      - "--entryPoints.websecure.transport.respondingTimeouts.readTimeout=10s"
+      - "--entryPoints.websecure.transport.respondingTimeouts.writeTimeout=10s"
