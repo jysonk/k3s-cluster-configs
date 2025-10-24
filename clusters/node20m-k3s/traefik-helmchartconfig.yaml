@@ -4,7 +4,6 @@ kind: HelmChartConfig
 metadata:
   name: rke2-coredns
   namespace: kube-system
-  takeOwnership: true
 spec:
   # note: use valuesContent to overlay custom chart values
   valuesContent: |-
